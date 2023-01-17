@@ -18,8 +18,9 @@ a,h1,h2,h3,h4,li,p,span,ul{
 }
 
 h1{
-    margin:50px 0;
+    margin:10px 0;
     font-weight: 900;
+    color: #495057;
 }
 
 ul{
@@ -27,7 +28,15 @@ ul{
 }
 
 header{
-    background-color:#1c3643
+    background: rgb(138,2,43);
+    background: linear-gradient(0deg, rgba(138,2,43,1) 0%, rgba(255,255,255,1) 2%);
+    padding: 10px 0;
+	box-shadow: 0 5px 10px rgba(204,204,204,0.31);
+    /* position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10; */
 }
 
 header nav li{
@@ -37,16 +46,16 @@ header nav li{
 }
 
 header nav li a{
-    color:#fff;
+    color:#8A022B;
     text-transform:uppercase
 }
 
 header nav li a:hover{
-    color:#fff
+    color:#495057;
 }
 
 footer{
-    background-color:#1c3643;
+    background-color:#8A022B;
     padding:10px 0
 }
 

@@ -12,7 +12,8 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-4">
-                <img src="<?php echo get_template_directory_uri()?>/assets/img/logo.png" alt="logo">
+                <!-- <img src="<?php echo get_template_directory_uri()?>/assets/img/SkyGames.png" alt="logo"> -->
+                <h1>SKYGAMES</h1>
             </div>
             <div class="col-8">
                 <nav>
