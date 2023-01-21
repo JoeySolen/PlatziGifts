@@ -14,7 +14,7 @@
 
         <div class="lista-productos">
             <h2 class="text-center">PRODUCTOS</h2>
-            <div class="row">
+            <div class="row mb-3 masonry">
             <?php
             $args = array(
                 'post_type' => 'producto',
@@ -29,7 +29,19 @@
                     while($productos->have_posts()){
                         $productos->the_post();
                         ?>
-                        <div class="col-4">
+
+                        <ul class="col-4 thumbnails">
+                            <li class="shadows">
+                                <?php the_post_thumbnail('large'); ?>
+                            </li>
+                            <h4 class='my-3 text-center'>
+                                <a href="<?php the_permalink(); ?>">
+                                    <?php the_title(); ?>
+                                </a>
+                            </h4>
+                        </ul>
+
+                        <!-- <div class="masonry">
                             <figure>
                                 <?php the_post_thumbnail('large'); ?>
                             </figure>
@@ -38,7 +50,7 @@
                                     <?php the_title(); ?>
                                 </a>
                             </h4>
-                        </div>
+                        </div> -->
 
                     <?php }
                 }

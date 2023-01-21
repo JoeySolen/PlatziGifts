@@ -54,6 +54,31 @@ header nav li a:hover{
     color:#495057;
 }
 
+.wp-image-53{
+    border-radius: 0px 0px 20px 20px;
+}
+
+img.attachment-large{
+border-radius: 10px !important;
+}
+
+.shadows{
+    transition: box-shadow .3s;
+    border-radius:9px;
+}
+
+.shadows:hover{
+    box-shadow: 0 0 11px rgba(35,35,35,.8);  
+}
+
+.thumbnails{
+    list-style-type: none;
+}
+
+/* .masonry{
+    background-color: #8A022B;
+} */
+
 footer{
     background-color:#8A022B;
     padding:10px 0

@@ -25,6 +25,7 @@
         wp_enqueue_script('bootstraps', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js', array('jquery', 'popper'), '4.4.1', true);
 
         wp_enqueue_script('custom', get_template_directory_uri().'/assets/js/custom.js', '','1.0', true);
+
     }
 
     add_action( 'wp_enqueue_scripts', 'assets' );
@@ -71,6 +72,13 @@
     }
 
     add_action('init', 'productos_type');
+
+    function bps_masonry () {
+        wp_enqueue_script('masonry-js', '//unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js', array('jquery'));
+        wp_enqueue_script('masonry-init', get_stylesheet_directory_uri() . '/assets/js/masonry-init.js', array('masonry'), 1, true); 
+        }
+        
+        add_action( 'wp_enqueue_scripts', 'bps_masonry' );
 
 ?>
 
