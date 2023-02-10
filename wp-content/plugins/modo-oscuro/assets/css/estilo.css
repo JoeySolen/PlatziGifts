@@ -1,0 +1,21 @@
+body{
+    background-color: black !important;
+}
+
+p,span,h1,h2,h3,h4,a{
+    color: white !important;
+}
+
+header{
+    background: #8a022b !important;
+    box-shadow: 0 5px 10px #8a022b !important;
+}
+
+.shadows{
+    transition: box-shadow .3s;
+    border-radius:9px;
+}
+
+.shadows:hover{
+    box-shadow: 0 0 11px #ffffffcc !important;  
+}

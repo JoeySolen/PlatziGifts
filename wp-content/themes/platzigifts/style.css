@@ -1,7 +1,7 @@
 /*
-Theme name: PlatziGifts
+Theme name: Skygames
 Version: 1.0
-Description: Sitio para catálogos de Platzi
+Description: Sitio para catálogo virtual de videojuegos.
 Author: José Moreno
 Author URI: https://github.com/JoeySolen
 License: GNU General Public License v2 or later
@@ -28,7 +28,6 @@ ul{
 }
 
 header{
-    background: rgb(138,2,43);
     background: linear-gradient(0deg, rgba(138,2,43,1) 0%, rgba(255,255,255,1) 2%);
     padding: 10px 0;
 	box-shadow: 0 5px 10px rgba(204,204,204,0.31);
